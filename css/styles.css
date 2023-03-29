@@ -159,7 +159,7 @@ footer{
 }
 h3{
   line-height: 25px;
-  font-size: 14px;
+  font-size: 12px;
 }
 #nameimg{
   width: 100%;
@@ -320,6 +320,9 @@ h4{
 
 
 @media screen and (min-width:750px){
+	h3{
+		font-size: 14px;
+	}
 	header{
 		max-height: 100px;
 		display: grid;
@@ -377,7 +380,7 @@ h4{
 	}
 	#articles{
 		display: flex;
-		flex-flow: column-wrap;
+		flex-flow: wrap;
 		flex-wrap: wrap;
 		
 	}
