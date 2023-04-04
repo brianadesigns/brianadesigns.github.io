@@ -738,7 +738,16 @@ h4{
 	margin-top: 8%;
 }
 }
-
+@media screen and (min-width: 650px){
+	footer h2{
+		font-size: 70px;
+		line-height: 54px;
+	}
+	#footertype h3{
+		font-size: 17px;
+		line-height: 26px;
+	}
+}
 @media screen and (min-width:750px){
 	body{
 		max-width: 80%;
@@ -746,10 +755,10 @@ h4{
 		margin: auto;
 	}
 	#index-html h2{
-		font-size: 72px;
+		font-size: 57px;
 	}
 	footer h2{
-		font-size: 70px;
+		font-size: 72px;
 	}
 	#footertype h3{
 		font-size: 16px;
@@ -872,6 +881,11 @@ h4{
 	}
 }
 
+@media screen and (min-width:960px){
+	#index-html h2{
+		font-size: 72px;
+	}
+}
 
 @media screen and (min-width: 1000px){
 	body{
